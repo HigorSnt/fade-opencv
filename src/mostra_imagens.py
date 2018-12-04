@@ -1,7 +1,6 @@
 #coding: utf-8
 
 import cv2
-import numpy as np
 import os
 
 # funcao responsavel por mostrar as imagens geradas na tela

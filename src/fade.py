@@ -1,7 +1,6 @@
 # coding: utf-8
 
 import cv2
-import numpy as np
 
 # funcao responsavel por realizar o fade, utilizando combinação convexa
 def fade(imagem1, imagem2):
