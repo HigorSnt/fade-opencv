@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+echo -e "INSTALANDO INICIALMENTE O OPENCV PARA PYTHON\n"
+pip install opencv-python --user
+
+echo "
+
+OPENCV INSTALADO"
+
+echo -e "DANDO PERMISSÃO E EXECUTANDO O ARQUIVO QUE GERARÁ O FADE\n"
+chmod +x run
+./run
+

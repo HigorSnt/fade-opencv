@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+echo "
+
+INICIANDO O PROCESSO DE FADE ENTRE AS IMAGENS"
+
+echo "
+ENTRANDO NA PASTA src/"
+cd ..
+cd src
+
+echo "
+INICIANDO A EXECUÇÃO DO FADE..."
+python main.py
