@@ -1,8 +1,6 @@
-# coding: utf-8
-
 import cv2
 
-# funcao responsavel por realizar o fade, utilizando combinação convexa
+# funcao responsavel por realizar o fade, utilizando combinacao convexa
 def fade(imagem1, imagem2):
 	
 	# porcentagem no qual a primeira imagem sera gravada
@@ -22,4 +20,4 @@ def fade(imagem1, imagem2):
 		porcentagem_imagem2 += 0.02
 		quantidade_imagens += 1
 		
-		cv2.imwrite("../output/imagem" + str(quantidade_imagens) + ".jpg", imagem_nova)
+		cv2.imwrite("../output/imagem" + "{:02d}".format(quantidade_imagens) + ".jpg", imagem_nova)

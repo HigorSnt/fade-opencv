@@ -4,7 +4,7 @@ case $1 in
 	setup)
 		echo -e "INSTALANDO INICIALMENTE O OPENCV PARA PYTHON\n"
 		pip install opencv-python --user
-		echo "OPENCV INSTALADO"
+		echo -e "\nOPENCV INSTALADO"
 	;;
 	
 	run)
@@ -13,6 +13,6 @@ case $1 in
 	;;
 
 	*)
-		echo "INVALID OPTION"
+		echo -e "OPÇÃO INVÁLIDA\n"
 	;;
 esac
