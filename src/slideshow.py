@@ -7,7 +7,7 @@ def show():
 	arquivos = os.listdir("../output")
 	arquivos.sort()
 	
-	for posicao,imagem in enumerate(arquivos):
+	for imagem in arquivos:
 		elemento = cv2.imread("../output/" + imagem)
 		
 		cv2.imshow("Imagem", elemento)
