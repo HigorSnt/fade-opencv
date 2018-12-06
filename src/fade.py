@@ -18,8 +18,8 @@ def fade(imagem1, imagem2):
 	while porcentagem_imagem2 <= 1:
 		imagem_nova = porcentagem_imagem1 * imagem1 + porcentagem_imagem2 * imagem2
 		
-		porcentagem_imagem1 -= 0.2
-		porcentagem_imagem2 += 0.2
+		porcentagem_imagem1 -= 0.02
+		porcentagem_imagem2 += 0.02
 		quantidade_imagens += 1
 		
 		cv2.imwrite("../output/imagem" + str(quantidade_imagens) + ".jpg", imagem_nova)

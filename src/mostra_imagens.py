@@ -12,6 +12,6 @@ def show():
 	for posicao,imagem in enumerate(arquivos):
 		elemento = cv2.imread("../output/" + imagem)
 		
-		cv2.imshow("Imagem " + str(posicao + 1), elemento)
-		cv2.waitKey(500)
-		cv2.destroyAllWindows()
+		cv2.imshow("Imagem", elemento)
+		cv2.waitKey(50)
+	cv2.destroyAllWindows()
